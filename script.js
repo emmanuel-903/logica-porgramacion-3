@@ -9,8 +9,8 @@
 // // transformar a js 
 
 console.log("Factorial de numeros")
-if (!isNaN(userInput)) {
-    Number3 = parseInt(prompt("ingrese un numero"))
+Number3 = parseInt(prompt("ingrese un numero"))
+if (!isNaN(Number3)) {
     for (let n = Number3 -1; n >= 1 ; --n){
     Number3 = Number3 * n
     }}
